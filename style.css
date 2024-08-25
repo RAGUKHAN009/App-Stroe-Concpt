@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.HeroHeader {
+    width: 100%;
+    height: auto;
+    background-color: #1E273C;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headerAlign {
+    width: 100%;
+    height: 42px;
+    max-width: 375px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.headerLeft {
+    width: 88px;
+    height: 22px;
+}
+
+.headerLeft img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.headerRight {
+    width: 122px;
+    height: 36px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1,
+.item2,
+.item3 {
+    width: 36px;
+    height: 36px;
+}
+
+.item1 img,
+.item2 img,
+.item3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* HEADER CONPLIED */
+
+.heroCont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    background-image: url(./Hero\ Section.png);
+    background-size: cover;
+}
+
+.heroContAlign {
+    width: 100%;
+    height: 260px;
+    max-width: 375px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.heroContAlign h1 {
+    width: 190px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-weight: 900;
+    margin-top: 16px;
+    font-family: sans-serif, 'Montserrat';
+}
+
+.AttractCont {
+    width: 190px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.AttractDiv1,
+.AttractDiv2 {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: wheat;
+}
+.AttractDiv1 {
+    background-color: #00FAA0;
+}
+.AttractDiv2 {
+    background-color: #00D0FD;
+}
+
+.ButtonContHero {
+    width: 190px;
+    height: 36px;
+    margin-top: 16px;
+}
+
+.ButtonContHero button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #00FAA0 , #00D0FD);
+    font-size: 16px;
+    font-weight: 600;
+    color: #141B2C;
+    font-family: sans-serif, 'monstserrat';
+}
